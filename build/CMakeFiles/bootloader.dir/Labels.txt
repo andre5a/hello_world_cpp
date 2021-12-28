@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/altran/esp/hello_world_cpp/build/CMakeFiles/bootloader
+/home/altran/esp/hello_world_cpp/build/CMakeFiles/bootloader.rule
+/home/altran/esp/hello_world_cpp/build/CMakeFiles/bootloader-complete.rule
+/home/altran/esp/hello_world_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/altran/esp/hello_world_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/altran/esp/hello_world_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/altran/esp/hello_world_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/altran/esp/hello_world_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/altran/esp/hello_world_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/altran/esp/hello_world_cpp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
