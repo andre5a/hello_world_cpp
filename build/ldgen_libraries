@@ -65,4 +65,5 @@
 /home/altran/esp/hello_world_cpp/build/esp-idf/spiffs/libspiffs.a
 /home/altran/esp/hello_world_cpp/build/esp-idf/ulp/libulp.a
 /home/altran/esp/hello_world_cpp/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/libGpio.a
 /home/altran/esp/hello_world_cpp/build/esp-idf/core/libcore.a

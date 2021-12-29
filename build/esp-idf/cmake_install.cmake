@@ -112,6 +112,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/altran/esp/hello_world_cpp/build/esp-idf/tinyusb/cmake_install.cmake")
   include("/home/altran/esp/hello_world_cpp/build/esp-idf/ulp/cmake_install.cmake")
   include("/home/altran/esp/hello_world_cpp/build/esp-idf/wifi_provisioning/cmake_install.cmake")
+  include("/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/cmake_install.cmake")
   include("/home/altran/esp/hello_world_cpp/build/esp-idf/core/cmake_install.cmake")
 
 endif()

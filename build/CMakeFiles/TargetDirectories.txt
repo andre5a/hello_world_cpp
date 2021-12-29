@@ -636,6 +636,13 @@
 /home/altran/esp/hello_world_cpp/build/esp-idf/wifi_provisioning/CMakeFiles/rebuild_cache.dir
 /home/altran/esp/hello_world_cpp/build/esp-idf/wifi_provisioning/CMakeFiles/edit_cache.dir
 /home/altran/esp/hello_world_cpp/build/esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/CMakeFiles/install/strip.dir
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/CMakeFiles/install/local.dir
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/CMakeFiles/install.dir
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/CMakeFiles/list_install_components.dir
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/CMakeFiles/rebuild_cache.dir
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/CMakeFiles/edit_cache.dir
+/home/altran/esp/hello_world_cpp/build/esp-idf/Gpio/CMakeFiles/__idf_Gpio.dir
 /home/altran/esp/hello_world_cpp/build/esp-idf/core/CMakeFiles/install/strip.dir
 /home/altran/esp/hello_world_cpp/build/esp-idf/core/CMakeFiles/install/local.dir
 /home/altran/esp/hello_world_cpp/build/esp-idf/core/CMakeFiles/install.dir

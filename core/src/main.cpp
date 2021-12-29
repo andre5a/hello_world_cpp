@@ -6,7 +6,7 @@
    software is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
    CONDITIONS OF ANY KIND, either express or implied.
 */
-//#include "main.h"
+#include "main.h"
 #include <stdio.h>
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
@@ -18,6 +18,8 @@
 #include "esp_log.h"
 #define LOG_TAG "MAIN"
 
+static Main my_main;
+
 extern "C"
 {
     void app_main(void);
@@ -25,7 +27,15 @@ extern "C"
 
 void app_main(void)
 {
-    printf("Hello world!\n");
+
+    ESP_ERROR_CHECK(my_main.setup());
+
+    while (true)
+    {
+        my_main.loop();
+    }
+    // printf("Hello world!\n");
+    ESP_LOGI(LOG_TAG, "Hello World!\n");
 
     /* Print chip information */
     esp_chip_info_t chip_info;
@@ -46,9 +56,30 @@ void app_main(void)
     for (int i = 10; i >= 0; i--)
     {
         printf("Restarting in %d seconds...\n", i);
-        vTaskDelay(1000 / portTICK_PERIOD_MS);
+        // vTaskDelay(1000 / portTICK_PERIOD_MS);
+        vTaskDelay(pdSECOND);
     }
     printf("Restarting now.\n");
     fflush(stdout);
     esp_restart();
+}
+
+esp_err_t Main::setup(void)
+{
+    esp_err_t status{ESP_OK};
+    ESP_LOGI(LOG_TAG, "Setup!");
+    status |= led.init();
+    return status;
+}
+
+void Main::loop(void)
+{
+    // printf("Hello world!\n");
+    ESP_LOGI(LOG_TAG, "Hello World!");
+    ESP_LOGI(LOG_TAG, "LED ON");
+    led.set(true);
+    vTaskDelay(pdSECOND);
+    ESP_LOGI(LOG_TAG, "LED OFF");
+    led.set(false);
+    vTaskDelay(pdSECOND);
 }
